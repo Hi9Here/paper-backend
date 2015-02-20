@@ -27,9 +27,9 @@
     <core-drawer-panel>
 
       <!-- Drawer -->
-      <core-header-panel drawer>
+      <core-header-panel drawer mode="seamed">
 
-        <!-- Drawer Toolbar -->
+        <!-- Drawer Toolbar Heading -->
         <core-toolbar>Menu</core-toolbar>
 
         <!-- Drawer Content -->
@@ -42,7 +42,7 @@
       </core-header-panel>
 
       <!-- Main -->
-      <core-header-panel main>
+      <core-header-panel main mode="seamed">
 
         <!-- Main Toolbar -->
         <core-toolbar>
@@ -62,8 +62,7 @@
           <!-- Ventical DropDown Button -->
           <paper-menu-button>
             <paper-icon-button icon="more-vert">
-              <paper-dropdown class="dropdown"
-                              halign="right">
+              <paper-dropdown>
                 <core-menu class="menu">
                   <paper-item>Settings</paper-item>
                   <paper-item>Help</paper-item>
